@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.navItems {
+    height: 10vh;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1rem 2fr 3fr 2fr 5rem;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 5px;
+    left: 10%;
+    transform: translate(-5%);
+}
+
+.navbar-logo {
+    grid-column: 2/3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar-items a:hover {
+    border-bottom: 2px solid white;
+}
+
+.navbar-items {
+    /* background-color: pink; */
+       grid-column-start: 2/3;
+
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.navbar-items ul {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar-items li {
+    font-style: none;
+    /* background-color: black; */
+
+}
+
+.navbar-items a {
+    text-decoration: none;
+
+    font-size: 18px;
+    color: white;
+}
+
+
+.media {
+    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 3fr;
+
+    align-items: center;
+
+}
+
+.media li {
+    list-style: none;
+
+}
+
+#media-facebook {
+
+    grid-column: 2/3;
+}

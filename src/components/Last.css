@@ -1,0 +1,97 @@
+.footer {
+    color: black;
+    background-color: #48cae4;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    /* color:white; */
+    /* font-family: "Nunito"; */
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: bisque; */
+}
+
+.offer h1 {
+    font-size: 20px;
+    /* background-color: black; */
+
+}
+
+.offer .input {
+    font-size: 20px;
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+
+.offer .input input {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    /* box-shadow: 1px 1px grey; */
+    box-shadow: 2px 2px 10px grey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 0.4;
+
+}
+
+.offer .input button {
+    padding: 9px;
+    width: 80px;
+    /* border: 1px solid #dee2e6; */
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.address {
+    /* background-color:pink; */
+    margin-top: 30px;
+    width: 55%;
+    color: black;
+    word-spacing: 4px;
+    /* color:white; */
+
+
+}
+
+.elements .para {
+    /* background-color: pink; */
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.elements .para a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.terms {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
